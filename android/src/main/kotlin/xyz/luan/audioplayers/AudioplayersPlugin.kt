@@ -148,6 +148,7 @@ class AudioplayersPlugin : FlutterPlugin, IUpdateCallback {
                 "pause" -> player.pause()
                 "stop" -> player.stop()
                 "release" -> player.release()
+                "audioSessionId" -> player.getAudioSessionId()
                 "seek" -> {
                     val position = call.argument<Int>("position") ?: error("position is required")
                     player.seek(position)

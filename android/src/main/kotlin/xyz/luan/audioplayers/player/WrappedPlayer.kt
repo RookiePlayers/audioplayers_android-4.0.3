@@ -211,7 +211,9 @@ class WrappedPlayer internal constructor(
             }
         }
     }
-
+    fun getAudioSessionId(): Int? {
+        return if (prepared) player?.getAudioSessionId() else null
+    }
     fun stop() {
         focusManager.handleStop()
         if (released) {

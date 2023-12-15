@@ -22,7 +22,9 @@ class MediaPlayerPlayer(
         wrappedPlayer.context.setAttributesOnPlayer(mediaPlayer)
         return mediaPlayer
     }
-
+    override fun getAudioSessionId(): Int {
+        return mediaPlayer.audioSessionId ?: 0
+    }
     override fun getDuration(): Int? {
         // media player returns -1 if the duration is unknown
         return mediaPlayer.duration.takeUnless { it == -1 }

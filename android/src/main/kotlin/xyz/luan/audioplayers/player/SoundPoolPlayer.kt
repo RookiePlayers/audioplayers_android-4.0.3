@@ -78,6 +78,9 @@ class SoundPoolPlayer(
         }
     }
 
+    override fun getAudioSessionId(): Int {
+        return streamId
+    }
     override fun pause() {
         streamId?.let { soundPool.pause(it) }
     }
