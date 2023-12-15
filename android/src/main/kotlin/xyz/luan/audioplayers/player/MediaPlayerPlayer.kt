@@ -23,7 +23,7 @@ class MediaPlayerPlayer(
         return mediaPlayer
     }
     override fun getAudioSessionId(): Int? {
-        return mediaPlayer.audioSessionId ?: 0
+        return mediaPlayer.audioSessionId ?: -1
     }
     override fun getDuration(): Int? {
         // media player returns -1 if the duration is unknown
