@@ -36,10 +36,11 @@ packages:
   audioplayers_platform_interface:
     dependency: "direct main"
     description:
-      name: audioplayers_platform_interface
-      sha256: f7daaed4659143094151ecf6bacd927d29ab8acffba98c110c59f0b81ae51143
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: b106c9bbf534d38c2f962b08514ecd92275bd9d4
+      url: "https://github.com/RookiePlayers/audioplayers_platform_interface-5.0.1"
+    source: git
     version: "5.0.1"
   boolean_selector:
     dependency: transitive
