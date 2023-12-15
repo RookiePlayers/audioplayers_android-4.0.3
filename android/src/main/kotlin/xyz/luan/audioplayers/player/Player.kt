@@ -5,7 +5,7 @@ import xyz.luan.audioplayers.source.Source
 
 interface Player {
     fun getDuration(): Int?
-    fun getAudioSessionId(): Int
+    fun getAudioSessionId(): Int?
     fun getCurrentPosition(): Int?
     fun isActuallyPlaying(): Boolean
     fun isLiveStream(): Boolean

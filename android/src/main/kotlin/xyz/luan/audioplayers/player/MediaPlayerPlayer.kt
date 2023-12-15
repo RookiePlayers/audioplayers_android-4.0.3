@@ -22,7 +22,7 @@ class MediaPlayerPlayer(
         wrappedPlayer.context.setAttributesOnPlayer(mediaPlayer)
         return mediaPlayer
     }
-    override fun getAudioSessionId(): Int {
+    override fun getAudioSessionId(): Int? {
         return mediaPlayer.audioSessionId ?: 0
     }
     override fun getDuration(): Int? {
