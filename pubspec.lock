@@ -37,10 +37,10 @@ packages:
     dependency: "direct main"
     description:
       name: audioplayers_platform_interface
-      sha256: "365c547f1bb9e77d94dd1687903a668d8f7ac3409e48e6e6a3668a1ac2982adb"
+      sha256: f7daaed4659143094151ecf6bacd927d29ab8acffba98c110c59f0b81ae51143
       url: "https://pub.dev"
     source: hosted
-    version: "6.1.0"
+    version: "5.0.1"
   boolean_selector:
     dependency: transitive
     description:

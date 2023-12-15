@@ -13,7 +13,7 @@ flutter:
         pluginClass: AudioplayersPlugin
 
 dependencies:
-  audioplayers_platform_interface: ^6.1.0
+  audioplayers_platform_interface: ^5.0.1
   flutter:
     sdk: flutter
 
